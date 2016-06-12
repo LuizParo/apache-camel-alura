@@ -1,11 +1,11 @@
-package br.com.caelum.camel;
+package br.com.caelum.camel.routes;
 
 import org.apache.camel.CamelContext;
 import org.apache.camel.Exchange;
 import org.apache.camel.builder.RouteBuilder;
 import org.apache.camel.impl.DefaultCamelContext;
 
-public class RotaPedidos {
+public class RotaPedidosFileTransfer {
 
 	public static void main(String[] args) throws Exception {
 
